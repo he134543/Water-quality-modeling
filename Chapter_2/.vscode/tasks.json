@@ -1,0 +1,10 @@
+{
+"version": "2.0.0",
+"command": "gfortran",
+"args": [
+"-g",
+"${fileDirname}\\*.f90",
+"-o",
+"${workspaceRoot}\\${fileBasenameNoExtension}.exe"
+    ]
+}
