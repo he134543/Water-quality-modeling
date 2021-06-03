@@ -47,7 +47,7 @@ def Implicit_method(im,it,R):
         # 2.2.14
         c[im-1, t+1] = y[im-1]/u[im-1]
 
-        for i in range(im - 2, 1, -1):
+        for i in range(im - 2, 0, -1):
             c[i, t+1] = (y[i] + R * c[i, t+1])/u[i]
 
         c[0,t+1] = c[1,t+1]
